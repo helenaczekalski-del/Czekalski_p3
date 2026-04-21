@@ -1,0 +1,91 @@
+
+/* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+body, html{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* call an element from your html and style it here! */
+/* for example... */
+h1{
+   text-align: left;
+   margin: 25px 600px 75px 50px;
+  font-size: 55;
+  text-transform: capitalize;
+  font-family: "Lexend Giga", Arial, Helvetica, sans-serif;
+  color: white;
+}
+body{
+  background-image: url("https://i.pinimg.com/736x/96/f8/2b/96f82b5b05a1abbbceca2562c56f194e.jpg");
+  background-repeat: repeat-y;
+  background-position: right;
+  background-color: black;
+  
+  }
+iframe.p5{
+  width:55% ;
+  height: 600px;
+  display: block;
+  margin: 25px 600px 75px 50px;
+  }
+p{
+  text-align: left;
+   margin: 25px 600px 75px 50px;
+  font-family: "Lexend Giga", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  color: white;
+}
+p.left{
+  text-align: left;
+   margin: 25px 25px 75px 50px;
+  font-family: "Lexend Giga", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  color: white;
+  float: inline-start;
+}
+p.right{
+  text-align: right;
+   margin: 25px 25px 75px 50px;
+  font-family: "Lexend Giga", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  color: white;
+  float: inline-end;
+  
+}
+
+  a{
+ color: white;
+}
+ul{
+  margin: 25px 600px 75px 50px;
+  text-align: left;
+  font-family: "Lexend Giga", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-optical-sizing: auto;
+  color: white;
+}
+@media (max-width: 768px) {
+  /* your tablet styles here! */
+  body{
+    background-color: black;
+     background-image: none;
+  }
+}
+@media (max-width: 425px) {
+  /* your mobile styles here! */
+  iframe.p5{
+    display: none;
+    }
+    body{
+      background-image: none;
+  background-color: black;
+  }
+  p.web{
+    display: none;
+  }
+}
